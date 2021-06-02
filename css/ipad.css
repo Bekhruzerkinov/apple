@@ -38,6 +38,9 @@ p.price{
 .buy:hover{
     background-color: rgb(86, 85, 235);
 }
+.buybuy{
+    padding-bottom: 1em;
+}
 .mac{
     display: flex;
     justify-content: center;
@@ -389,6 +392,8 @@ padding-top: 1em;
     border-bottom: 1px solid #d2d2d7;
     text-align: center;
     padding: 17px 0 11px;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 .footer__info{
     font-size: 12px;
@@ -399,6 +404,8 @@ padding-top: 1em;
 }
 .footer__item{
     padding-left: 1em;
+    list-style: none;
+
 }
 .footer__link{
     font-size: 1em;
