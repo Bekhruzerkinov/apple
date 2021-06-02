@@ -405,6 +405,7 @@ padding-top: 1em;
 .footer__item{
     padding-left: 1em;
     list-style: none;
+    text-align: center;
 
 }
 .footer__link{
@@ -417,10 +418,30 @@ padding-top: 1em;
 
 
 @media only screen and (max-width: 414px) {
-    .imac{
+    .imac,
+    .retail{
         display: none;
     }
     .inner-imac{
         background-image: url(https://www.apple.com/v/mac/home/be/images/overview/hero_imac_24__eq5phrdpwjyq_small_2x.jpg);
+    }
+    .mouse,
+    .promo-image{
+        width: 380px;
+    }
+    .apple_card{
+        width: 380px;
+    }
+    .arcade__logo{
+        width: 100px;
+    }
+    .gift__logo{
+        width: 380px;
+    }
+    .gallery__logo{
+        width: 380px;
+    }
+    .makesmakes{
+        font-size: 16px;
     }
 }

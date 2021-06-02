@@ -254,6 +254,8 @@ h3.watch{
 }
 .footer__item{
     padding-left: 1em;
+    list-style: none;
+    text-align: center;
 }
 .footer__link{
     font-size: 1em;
