@@ -262,7 +262,11 @@ h3.watch{
     color: #515154  ;
     text-decoration: none;
 }
-
+@media only screen and (max-width) {
+  .apple__menu{
+    width: 330px;
+  }
+}
 
 
 
