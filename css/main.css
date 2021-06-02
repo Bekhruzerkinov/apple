@@ -1,0 +1,268 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background: #383838;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding-left: 2rem;
+  }
+  nav ul li a{
+    color: rgb(199, 199, 199);
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    padding-left: 2rem;
+
+  }
+  a.active,a:hover{
+    color: #ffffff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      background: #000000;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #000000;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+
+  @media (max-width: 375px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+
+      background: #000000;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    .One__Logo{
+      width: 80px;
+    }
+    .apple__menu{
+      width: 374px;
+    }
+    img.iPad{
+      width: 345px;
+    }
+  }
+
+  section{
+    background-size: cover;
+  }
+
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/iphone_12__ejhnn79bn1me_largetall.jpg);
+    background-position: center;    
+    background-repeat: no-repeat;
+}
+.hero__iPhone{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.apple.com/v/home/s/images/heroes/iphone-12-pro/iphone_12_pro__f7ri3g4x75m6_medium.jpg);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+.hero__watch{
+    background-image: url(https://www.apple.com/v/home/s/images/heroes/watch-series-6/hero__dvsxv8smkkgi_large.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+.iPad{
+    color: rgb(155, 155, 155);
+    display: flex;
+    justify-content: center;
+}
+
+
+.content__info{
+    padding-top: 1em;
+    text-align: center;
+}
+.headline{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+  font-size: 50px;
+  margin-bottom: -10px;
+}
+h3{
+    font-size: 26px;
+}
+
+h2.iPhone{
+    color: #FFFF;
+}
+h3.iPhone{
+    color: #FFFF;
+}
+h3.watch{
+    color: #FFFF;
+}
+.container{
+    padding-top: 10px;
+}
+.picture{
+    position: absolute;
+}
+
+.watch__logo{
+    margin-top: 2rem;
+}
+.One__Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.one__text{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.headlin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+.tv-plus{
+    background-image: url(https://www.apple.com/uz/home/images/promos/tv-plus-free-shows-jan21/tile__cauwwcyyn9hy_large.jpg);
+    height: 500px;
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.headli{
+    position: absolute;
+    text-align: center;
+    margin-top: 68%;
+}
+.logox{
+    position: absolute;
+    margin-top: 55%;
+}
+.tv__plus{
+    margin-top: 65%;
+}
+.footer{
+    background-color: #f5f5f7;
+}
+.footer__content{
+    display: flex;
+    justify-content: center;
+    
+}
+.row.footer{
+    margin-right: 0;
+    margin-left: 0;
+}
+.footer__infox{
+    border-bottom: 1px solid #d2d2d7;
+    text-align: center;
+    padding: 17px 0 11px;
+}
+.footer__info{
+    font-size: 12px;
+    color: #86868b;
+}
+.footer__title{
+    font-size: 14px;
+}
+.footer__item{
+    padding-left: 1em;
+}
+.footer__link{
+    font-size: 1em;
+    color: #515154  ;
+    text-decoration: none;
+}
+
+
+
+
+
+ 
