@@ -1,108 +1,130 @@
-  nav{
-    background: #383838;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-  }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+nav{
+  background: #383838;
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
 
-  nav ul{
-    float: right;
-    margin-right: 20px;
-  }
-  nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-    padding-left: 2rem;
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  padding-left: 2rem;
+}
+nav ul li a{
+  color: rgb(199, 199, 199);
+  font-size: 14px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  padding-left: 2rem;
+
+}
+a.active,a:hover{
+  color: #ffffff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.home__link{
+  padding-top: 15px;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
   }
   nav ul li a{
-    color: rgb(199, 199, 199);
-    font-size: 14px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    padding-left: 2rem;
-
-  }
-  a.active,a:hover{
-    color: #ffffff;
-    transition: .5s;
-  }
-  .checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-  }
-  #check{
-    display: none;
-  }
-  .home__link{
-    padding-top: 15px;
-  }
-  @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
-    }
-    nav ul li a{
-      font-size: 16px;
-    }
-  }
-  @media (max-width: 858px){
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      background: #000000;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
-    nav ul li{
-      display: block;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-    nav ul li a{
-      font-size: 20px;
-    }
-    a:hover,a.active{
-      background: none;
-      color: #000000;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-  
-
-  @media (max-width: 375px){
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      background: #000000;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    }
+    font-size: 16px;
   }
 }
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #000000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+@media (max-width: 375px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+    .One__Logo{
+      width: 80px;
+    }
+    .apple__menu{
+      width: 374px;
+    }
+    img.iPad{
+      width: 345px;
+    }
+  }
+
+  section{
+    background-size: cover;
+  }
+
+
 .header{
     width: 100%;
     height: 100vh;
@@ -520,8 +542,30 @@ padding-top: 1em;
 }
 
 
+@media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+}
+ @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+}
+@media (max-width: 375px){
+    .checkbtn{
+      display: block;
+    }
+    .row .built{
+        display: flex;
+        justify-content: center;
+    }
+    .pa__logo{
+        display: none;
+    }
 
-
+}
 @media only screen and (max-width: 414px) {
     .imac,
     .retail{
@@ -532,21 +576,21 @@ padding-top: 1em;
     }
     .mouse,
     .promo-image{
-        width: 380px;
+        width: 345px;
     }
     .apple_card,
     .safer{
-        width: 380px;
+        width: 345px;
         display: none;
     }
     .arcade__logo{
         width: 100px;
     }
     .gift__logo{
-        width: 380px;
+        width: 345px;
     }
     .gallery__logo{
-        width: 380px;
+        width: 345px;
     }
     .makesmakes{
         font-size: 16px;
@@ -554,5 +598,11 @@ padding-top: 1em;
     .car__logo{
         width: 100px;
         padding-top: 0;
+    }
+    .store{
+        width: 345px;
+    }
+    .Apps{
+        font-size: 16px;
     }
 }

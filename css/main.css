@@ -226,7 +226,8 @@ h3.watch{
 }
 .logox{
     position: absolute;
-    margin-top: 55%;
+    width: 480px;
+    height: 458px;
 }
 .tv__plus{
     margin-top: 65%;
@@ -266,10 +267,12 @@ h3.watch{
     text-decoration: none;
 }
 
-@media only screen and (max-width) {
+@media only screen and (max-width: 375px) {
+  .logox{
+    width: 360px;
+  }
   .apple__menu{
-    width: 330px;
-     
+    width: 360px;
   }
 }
 
