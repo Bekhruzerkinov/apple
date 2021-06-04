@@ -57,7 +57,7 @@ a.active,a:hover{
 .home__link{
   padding-top: 15px;
 }
-@media (max-width: 952px){
+@media only screen and (max-width: 952px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -66,7 +66,7 @@ a.active,a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 858px){
+@media only screen and (max-width: 858px){
   .checkbtn{
     display: block;
   }
@@ -96,33 +96,6 @@ a.active,a:hover{
   }
 }
 
-@media (max-width: 375px){
-  .checkbtn{
-    display: block;
-  }
-  ul{
-    position: fixed;
-
-    background: #000000;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-    .One__Logo{
-      width: 80px;
-    }
-    .apple__menu{
-      width: 374px;
-    }
-    img.iPad{
-      width: 345px;
-    }
-  }
-
-  section{
-    background-size: cover;
-  }
 
 
 .header{
@@ -542,18 +515,18 @@ padding-top: 1em;
 }
 
 
-@media (max-width: 952px){
+@media only screen and (max-width: 952px){
     label.logo{
       font-size: 30px;
       padding-left: 50px;
     }
 }
- @media (max-width: 858px){
+ @media only screen and (max-width: 858px){
     .checkbtn{
       display: block;
     }
 }
-@media (max-width: 375px){
+@media  only screen and (max-width: 375px){
     .checkbtn{
       display: block;
     }
@@ -564,8 +537,40 @@ padding-top: 1em;
     .pa__logo{
         display: none;
     }
+    .checkbtn{
+        display: block;
+      }
+      ul{
+        position: fixed;
+    
+        background: #000000;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+      }
+        .One__Logo{
+          width: 80px;
+        }
+        .apple__menu{
+          width: 374px;
+        }
+        img.iPad{
+          width: 345px;
+        }
+        .apple_one_logo{
+            width: 100px;
+        }
+        .promo-image{
+            width: 315px;
+        }
+      }
+    
+      section{
+        background-size: cover;
+      }
 
-}
+
 @media only screen and (max-width: 414px) {
     .imac,
     .retail{
