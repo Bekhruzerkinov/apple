@@ -542,7 +542,7 @@ padding-top: 1em;
       }
       ul{
         position: fixed;
-    
+        
         background: #000000;
         top: 80px;
         left: -100%;
@@ -581,7 +581,7 @@ padding-top: 1em;
     }
     .mouse,
     .promo-image{
-        width: 345px;
+        width: 340px;
     }
     .apple_card,
     .safer{
@@ -593,6 +593,8 @@ padding-top: 1em;
     }
     .gift__logo{
         width: 345px;
+        display: flex;
+        justify-content: center;
     }
     .gallery__logo{
         width: 345px;
@@ -609,5 +611,18 @@ padding-top: 1em;
     }
     .Apps{
         font-size: 16px;
+    }
+    .pa__logo{
+        display: none;
+    }
+    .row .built{
+        display: flex;
+        justify-self: center;
+    } 
+    .iPad{
+        width: 400px;
+    }
+    .apple__menu{
+        width: 400px;
     }
 }

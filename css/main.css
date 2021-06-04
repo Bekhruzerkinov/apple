@@ -103,7 +103,7 @@ a.active,a:hover{
   }
   ul{
     position: fixed;
-
+    width: 375px;
     background: #000000;
     top: 80px;
     left: -100%;
@@ -117,7 +117,10 @@ a.active,a:hover{
       width: 374px;
     }
     img.iPad{
-      width: 345px;
+      width: 360px;
+    }
+    p.iPad{
+      width: 360px;
     }
   }
 
@@ -266,13 +269,24 @@ h3.watch{
     color: #515154  ;
     text-decoration: none;
 }
-
-@media only screen and (max-width: 375px) {
-  .logox{
-    width: 360px;
+@media only screen and (max-width: 414px){
+  .iPad{
+    width: 400px;
   }
   .apple__menu{
+    width: 400px;
+  }  
+  .logox{
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 375px) {
+
+  .apple__menu{
     width: 360px;
+  }
+  .logox{
+    width: 365px;
   }
 }
 
