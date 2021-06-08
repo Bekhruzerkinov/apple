@@ -122,6 +122,9 @@ a.active,a:hover{
     p.iPad{
       width: 360px;
     }
+    .one__text{
+      font-size: 12px;
+    }
   }
 
   section{
@@ -279,6 +282,10 @@ h3.watch{
   .logox{
     width: 400px;
   }
+  .watch{
+    font-size: 18px;
+  }
+  
 }
 @media only screen and (max-width: 375px) {
 

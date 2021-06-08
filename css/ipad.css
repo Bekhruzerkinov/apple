@@ -123,7 +123,8 @@ p.price{
     font-size: 20px;
 }
 .headline{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .buy{
     text-align: center;
@@ -359,7 +360,8 @@ padding-top: 1em;
 }
 .promo-headline.typography-headline{
     font-size: 40px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .virtual-sessions-image{
     text-align: center;
@@ -476,6 +478,10 @@ padding-top: 1em;
     background-repeat: no-repeat;
     height: 650px;
 }
+.headlin{
+    display: flex;
+    justify-content: center;
+}
 .footer{
     background-color: #f5f5f7;
 }
@@ -564,6 +570,9 @@ padding-top: 1em;
         .promo-image{
             width: 315px;
         }
+        .Empowerin{
+            font-size: 12px;
+        }
       }
     
       section{
@@ -599,12 +608,22 @@ padding-top: 1em;
     .gallery__logo{
         width: 345px;
     }
+    .Incredible{
+        font-size: 26px;
+    }
     .makesmakes{
         font-size: 16px;
     }
     .car__logo{
         width: 100px;
         padding-top: 0;
+    }
+    .Monthly{
+        font-size: 10px;
+    }
+
+    .Empowerin {
+        font-size: 14px;
     }
     .store{
         width: 345px;
@@ -624,5 +643,19 @@ padding-top: 1em;
     }
     .apple__menu{
         width: 400px;
+    }
+    .headline{
+        display: flex;
+        justify-content: center;
+    }
+    .editorial{
+        font-size: 12px;
+    }
+    .Getmore{
+        font-size: 28px;
+    }
+    .row .buil{
+        display: flex;
+        justify-self: center;
     }
 }
