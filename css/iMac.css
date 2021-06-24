@@ -1,0 +1,710 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    text-decoration: wavy;
+}
+nav{
+  background: #383838;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  padding-left: 2rem;
+}
+nav li span{
+    padding-left: 5px;
+}
+nav ul li a{
+  color: rgb(199, 199, 199);
+  font-size: 14px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  padding-left: 2rem;
+
+}
+ul span {
+    padding-left: 5px;
+}
+.cart__link{
+    color: #ffffff;
+}
+
+
+a.active,a:hover{
+  color: #ffffff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+.home__link{
+  padding-top: 15px;
+}
+@media only screen and (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    background: #000000;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #000000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+.nav__links:hover{
+    color: #fff;
+  }
+  
+  
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    text-align: center;
+    margin-bottom: 1em;
+    line-height: 8px;
+    
+}
+h2.New{
+    color: rgb(255, 94, 0);
+    font-size: 22px;
+    text-align: center;
+}
+h1.iMac{
+    font-size: 45px;
+}
+h3.Say{
+    font-size: 26px;
+}
+p.price{
+    font-size: 20px;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+}
+.buy {
+    text-align: center;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #FFF;
+    border: none;
+    background: rgb(91, 89, 245);
+    border-radius: 5em;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buy:hover{
+    background-color: rgb(86, 85, 235);
+}
+.buybuy{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.mac{
+    display: flex;
+    justify-content: center;
+}
+.headline{
+    font-size: 16px;
+}
+.section{
+    background-color: rgb(245, 245, 245);
+    padding-top: 5em;
+}
+.text{
+    text-align: center;
+}
+.container{
+    padding-bottom: 5em;
+}
+.text__info{
+    text-align: center;
+}
+.MacBook{
+    display: flex;
+    justify-content: center;
+
+}
+p.price{
+    font-size: 12px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+}
+.buyu{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: #FFF;
+    border: none;
+    background: rgb(91, 89, 245);
+    border-radius: 3em;
+    cursor: pointer;    
+}
+    .buyu:hover{
+        background-color: rgb(86, 85, 235);
+    }
+    .blabla{
+    display: flex;
+    justify-content: center ;
+    }   
+    .colmd__logo{
+    display: flex;
+    justify-content: center;
+    }
+    .chip{
+        display: flex;
+        justify-content: center ;
+    }
+    .intel{
+        display: flex;
+        justify-content: center;
+    }
+.compare{
+    display: flex;
+    justify-content: center;
+}
+.memory{
+    display: flex;
+    justify-content: center;
+}
+.configurable{
+    display: flex;
+    justify-content: center;
+}
+.storage{
+    display: flex;
+    justify-content: center;
+}
+.battery{
+    display: flex;
+    justify-content: center;
+}
+.battery__text{
+    display: flex;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    padding: 2em;
+    background: #f2f2f2;
+}
+.retail{
+    display: flex;
+    justify-content: center;
+}
+.Card{
+    display: flex;
+    justify-content: center;
+}
+.Accessories{
+    display: flex;
+    justify-content: center;
+}
+.Explore{
+    font-size: 48px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    padding-left: 1em;
+}
+.Monthly{
+
+padding-top: 1em;
+text-align: center;
+}
+.icon-delivery{
+    padding-top: 2em;
+}
+.makesmakes{
+    text-align: center;
+    font-size: 64px;
+}
+.Incredible{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+.whymac{
+    background: #fafafa;
+    height: 600px;
+}
+.macmac{
+    display: flex;
+    justify-content: center;
+}
+.bigsur{
+    background-image: url("https://www.apple.com/v/mac/home/be/images/overview/bigsur/big_sur__vsy5fc1nv5e2_large.jpg");
+    background-position: center;
+    height: 600px;
+}
+.macOS{
+    font-size: 24px;
+    color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    padding-top: 40%;
+}
+.ways{
+   text-align: center;
+    color: #f5f5f7;
+    font-size: 48px;
+}
+.Continuity{
+    height: 500px;
+    background: #f5f5f7;
+}
+.store{
+    width: 400px;
+}
+.macO{
+    padding-top: 2em;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.gallery{
+    background: #fbfbfd;
+}
+.Apps{
+    text-align: center;
+    font-size: 48px;
+    padding-top: 2em;
+}
+.creativity{
+    text-align: center;
+    padding-top: 1em;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.gallery__img{
+    display: flex;
+    justify-content: center;
+}
+.pro__app{
+    text-align: center;
+}
+.proapps{
+    display: flex;
+    justify-content: center;
+}
+.appstore__logo{
+    display: flex;
+    justify-content: center;
+}
+.editorial{
+    display: flex;
+    justify-content: center;
+}
+.storelink{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+.Getmore{
+    text-align: center;
+    font-size: 48px;
+}
+.typography-eyebrow{
+    text-align: center;
+}
+.promo-headline.typography-headline{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.virtual-sessions-image{
+    text-align: center;
+    font-size: 17px;
+}
+.virtual{
+    background: #f5f5f7;
+}
+.virtual__text{
+    padding-top: 10%;
+}
+.bundle{
+    display: flex;
+    justify-content: center;
+}
+.appleone{
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    padding-top: 1em;
+}
+.tvplus{
+    background: #000;
+}
+.tvlogo{
+    display: flex;
+    justify-content: center;
+
+}
+.typography{
+    color: #ffffff;
+    font-size: 21px;
+    text-align: center;
+    padding: 5px;
+}
+.promo-image{
+    display: flex;
+    justify-content: center;
+    width: 540px;
+}
+.apple_card{
+    height: 440px;
+}
+.tv__logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.pay__logo{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+}
+.pa__logo{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-top: 4em;
+ }
+.safer{
+    position: absolute;
+    padding-top: 8em;
+    color: #ffffff;
+    text-align: center;
+}
+.safe{
+    position: absolute;
+    padding-top: 7em;
+    color: #000;
+    text-align: center;
+}
+
+.apple__arcade{
+    background: #fff;
+}
+.typograph{
+    color: #000;
+    text-align: center;
+}
+.card__logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+.everything{
+    text-align: center;
+}
+.card__links{
+    display: flex;
+    justify-content: center;
+}
+.gift__logo{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+.section__container{
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/get-more/education__foui99z103ue_large.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.Empowering{
+    color: #fff;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Empowerin{
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__ff{
+    background-image: url(https://www.apple.com/v/mac/home/be/images/overview/get-more/business__cqey3ja2yyc2_large.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.headlin{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: #f5f5f7;
+}
+.footer__content{
+    display: flex;
+    justify-content: center;
+    
+}
+.row.footer{
+    margin-right: 0;
+    margin-left: 0;
+}
+.footer__infox{
+    border-bottom: 1px solid #d2d2d7;
+    text-align: center;
+    padding: 17px 0 11px;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.footer__info{
+    font-size: 12px;
+    color: #86868b;
+}
+.footer__title{
+    font-size: 14px;
+}
+.footer__item{
+    padding-left: 1em;
+    list-style: none;
+    text-align: center;
+
+}
+.footer__link{
+    font-size: 1em;
+    color: #515154  ;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+}
+ @media only screen and (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+}
+@media  only screen and (max-width: 375px){
+    .checkbtn{
+      display: block;
+    }
+    .row .built{
+        display: flex;
+        justify-content: center;
+    }
+    .pa__logo{
+        display: none;
+    }
+    .safe{
+        display: none;
+    }
+    .Empowerin {
+        text-align: center;
+    }
+    .checkbtn{
+        display: block;
+      }
+      ul{
+        position: fixed;
+        
+        background: #000000;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+      }
+        .One__Logo{
+          width: 80px;
+        }
+        .apple__menu{
+          width: 374px;
+        }
+        img.iPad{
+          width: 345px;
+        }
+        .apple_one_logo{
+            width: 100px;
+        }
+        .promo-image{
+            width: 315px;
+        }
+        .Empowerin{
+            font-size: 12px;
+        }
+        .imac{
+            background-image: url("https://www.apple.com/uz/mac/home/images/overview/hero_imac_24__eq5phrdpwjyq_small_2x.jpg");
+        }
+      }
+    
+      section{
+        background-size: cover;
+      }
+
+
+@media only screen and (max-width: 414px) {
+    .imac,
+    .retail{
+        display: none;
+    }
+    .inner-imac{
+        background-image: url(https://www.apple.com/v/mac/home/be/images/overview/hero_imac_24__eq5phrdpwjyq_small_2x.jpg);
+    }
+    .mouse,
+    .promo-image{
+        width: 340px;
+    }
+    .apple_card,
+    .safer{
+        width: 345px;
+        display: none;
+    }
+    .arcade__logo{
+        width: 100px;
+    }
+    .gift__logo{
+        width: 345px;
+        display: flex;
+        justify-content: center;
+    }
+    .gallery__logo{
+        width: 345px;
+    }
+    .Incredible{
+        font-size: 26px;
+    }
+    .makesmakes{
+        font-size: 16px;
+    }
+    .car__logo{
+        width: 100px;
+        padding-top: 0;
+    }
+    .Monthly{
+        font-size: 10px;
+
+    }
+
+    .Empowerin {
+        font-size: 14px;
+    }
+    .store{
+        width: 345px;
+    }
+    .Apps{
+        font-size: 16px;
+    }
+    .pa__logo{
+        display: none;
+    }
+    .row .built{
+        display: flex;
+        justify-content: center;
+    } 
+    .iPad{
+        width: 400px;
+    }
+    .apple__menu{
+        width: 400px;
+    }
+    .headline{
+        display: flex;
+        justify-content: center;
+    }
+    .editorial{
+        font-size: 12px;
+    }
+    .Getmore{
+        font-size: 28px;
+    }
+    .row .buil{
+        display: flex;
+        justify-content: center;
+    }
+    .row .built{
+        display: flex;
+        justify-content: center;
+    }
+}
